@@ -3,7 +3,7 @@ public class Conversion {
 
 	public static void main(String[] args) 
 	{
-		try (Scanner s=new Scanner(System.in)){
+		    Scanner s=new Scanner(System.in);
 			int x;
 			x=s.nextInt();
 			int year,days;
@@ -14,7 +14,6 @@ public class Conversion {
 			int minutesInDay=60*24;
 			days=x/minutesInDay;
 			System.out.print("and "+days+" days.");	
-		}
-		
+			
 	}
 }
